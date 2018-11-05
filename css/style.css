@@ -1,0 +1,102 @@
+body {
+    background-color: #f7f7f7;
+}
+
+p,
+ul {
+    font-family: 'Josefin Slab';
+}
+
+
+/* Top Menu */
+.logo {
+    width: 200px;
+    grid-column-start: 1;
+    grid-column-end: 1;
+
+}
+
+.shopping-cart {
+    width: 20px;
+}
+
+.right-menu img {
+    width: 20px;
+}
+
+.top-header {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 50px;
+
+}
+
+.middle-menu {
+    list-style-type: none;
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-column-gap: 20px;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.right-menu {
+    list-style-type: none;
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 30px;
+    grid-column-start: 6;
+    grid-column-end: 7;
+}
+
+li {
+    text-align: center;
+}
+
+/* Buttom Menu */
+
+.buttom-header {
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 300px;
+    background-color: #cbcbcb;
+    width: 100%;
+}
+
+.buttom-header p {
+    display: inline-grid;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.SoMe {
+    display: inline-grid;
+    grid-template-columns: 50px 30px;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    }
+
+
+.SoMe img {
+    width: 30px;
+    margin-top: 10px;
+}
+
+
+#video-feed {
+    display: grid;
+    grid-template-columns: 0.7fr 0.2fr;
+    margin-top: 20px;
+}
+
+.hero-video {
+    width: 100%;
+    display: grid;
+    margin-right: 30px;
+}
+.instagram-embed {
+    margin-left: 10px;
+    width: 200px;
+    height: 200px;
+    display: grid;
+}
